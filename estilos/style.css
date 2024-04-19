@@ -31,18 +31,22 @@
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
-    
+    transition: width 1s, height: 1s;
+    transition-timing-function:ease
  }
  div{
-    display: inline-block;
- }
- div#form{
     
+ }
+ form#email{
+   border: 1px solid black;
+ }
+ div#formu{
+    display: block;
     padding: 10px;
    
 
  }
- section#login > div#imagem{
+ div#imagem{
     background-image: url(../imagens/pexels-lawlesscapture-13737660.jpg);
     height: 200px;
     width: 300px;
