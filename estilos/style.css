@@ -37,14 +37,11 @@
  div{
     
  }
- form#email{
-   border: 1px solid black;
- }
+
  div#formu{
     display: block;
     padding: 10px;
    
-
  }
  div#imagem{
     background-image: url(../imagens/pexels-lawlesscapture-13737660.jpg);
@@ -57,11 +54,71 @@
  }
  div#formu{
     display: block;
+    font-size: 0.8em;
  }
- 
+ div#campo{
+   display: block;
+   border: 3px solid #5f2c82;
+   background-color: #5f2c82;;
+   border-radius: 5px;
+   
+ }
+ form{
+   padding-top:5px;
+   
+ }
+ span{
+   color: white;
+   padding-left: 5px;
+ }
+ input#ilogin,  input#isenha{
+   background-color: aqua;
+   border-radius: 5px;
+   width: 83%;
+  
+ }
+
+ div#ientrar{
+   background-color: #49a09d;
+  
+  
+ }
+ form > input[type=submit]{
+   background-color: #49a09d;
+   margin-top: 10px;
+   display: block;
+   font-size: 1em;
+   width: 100%;
+   height: 40px;
+   color: white;
+   border-radius: 5px;
+   
+ }
+ form > input[type=submit]:hover{
+   background-color: #054240f1;
+
+ }
+ form>a.botao{
+   display: block;
+   font-size: 1em;
+   height: 40px;
+   width: 100%;
+   text-align: center ;
+   text-decoration: none;
+   border: 1px solid #49a09d;
+   border-radius: 5px;
+   margin-top: 5px;
+   padding-top: 5px;
+
+
+ }
+ form>a.botao:hover{
+   background-color: #49a09d;;
+ }
  h1{
     text-align: center;
     padding-bottom: 10px;
  }
+
 
 

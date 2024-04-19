@@ -42,4 +42,12 @@ Grantes telas: acima de 1200 */
         width: 50%;
         height: 100%;
     }
+    h1{
+        font-size: 2em;
+    }
+    div#formu{
+        display: block;
+        font-size: 1.2em;
+     }
+     
 }
