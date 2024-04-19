@@ -13,16 +13,18 @@ Grantes telas: acima de 1200 */
     section#login{
         width: 80vw;
     }
-    div#imagem{
+    section>div#imagem{
         float: left;
         width: 30%;
         height: 100%;
     }
-    div#form{
+    section>div#form{
         float: right;
         width: 70%;
         height: 100%;
     }
+     
+  
 
 }
 @media screen and (min-width: 992px){
@@ -32,12 +34,12 @@ Grantes telas: acima de 1200 */
     section#login{
         width: 950px
     }
-    div#imagem{
+    section>div#imagem{
         float: right;
         width: 50%;
         height: 100%;
     }
-    div#form{
+    section>div#form{
         float: left;
         width: 50%;
         height: 100%;
@@ -46,7 +48,7 @@ Grantes telas: acima de 1200 */
         font-size: 2em;
     }
     div#formu{
-        display: block;
+        
         font-size: 1.2em;
      }
      
