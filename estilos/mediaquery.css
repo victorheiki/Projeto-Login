@@ -52,7 +52,7 @@ Grantes telas: acima de 1200 */
     }
  
      div#formu>p{
-        font-size: 1.2em;
+        font-size: 1em;
     }
     @media screen and (min-width: 992px) { /* CONFIGURAÇÕES PARA DESKTOP */
     body {
